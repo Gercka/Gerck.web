@@ -1,0 +1,73 @@
+body {
+         font-family: Arial, sans-serif;
+         text-align: center;
+     }
+     .text{
+        text-decoration: none;
+        
+     }
+     .header {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         padding: 20px;
+     }
+     .header img {
+         width: 50px;
+         height: 50px;
+     }
+     .header h1 {
+         margin-left: 20px;
+         font-size: 36px;
+     }
+     .nav {
+         display: flex;
+         justify-content: center;
+         margin: 20px 0;
+     }
+     .nav button {
+         border: 1px solid black;
+         padding: 10px 20px;
+         margin: 0 10px;
+         display: flex;
+         align-items: center;
+         background-color: white;
+         cursor: pointer;
+         font-size: 24px;
+     }
+     .nav button i {
+         font-size: 24px;
+         margin-right: 10px;
+     }
+     .products {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+     }
+     .product {
+         margin: 20px;
+         text-align: center;
+     }
+     .product .image {
+         width: 200px;
+         height: 200px;
+         background-color: #FF7F50;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         font-size: 24px;
+         margin-bottom: 10px;
+     }
+     .product .buy {
+         background-color: #005f73;
+         color: white;
+         padding: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         cursor: pointer;
+     }
+     .product .buy i {
+         margin-right: 10px;
+     }
